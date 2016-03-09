@@ -7,7 +7,7 @@ $(document).ready(function() {
 		console.log(type);
 		switch(type) {
 			case 'image-click':
-				var content = '<img src="C:/Users/Public/Pictures/Sample Pictures/Penguins.jpg" />';
+				var content = '<img src="media/penguins.jpg" />';
 				$('.content').html(content);
 			break;
 			case 'pdf-click':
