@@ -15,10 +15,10 @@ $(document).ready(function() {
 				$('.content').html(content);
 			break;
 			case 'audio-click':
-				var content = '<audio src="media/aac1.aac" controls autoplay loop>HTML5 audio not supported</audio>';
+				//var content = '<audio src="media/aac1.aac" controls autoplay loop>HTML5 audio not supported</audio>';
 				//var content = '<audio src="media/aud.mp3" controls autoplay loop>HTML5 audio not supported</audio>';
 				//var content = '<video autoplay loop controls><source src="media/aud.mp3" type="audio/mpeg"></video>';
-				//var content = '<audio autoplay loop controls><source src="media/aud.mp3"></audio>';
+				var content = '<audio autoplay loop controls><source src="media/aud.mp3"></audio>';
 				//var content = '<audio autoplay loop controls><source src="media/aud.mp3" type="audio/mp3"></audio>';
 				//var content = '<audio loop controls><source src="media/chord.wav" type="audio/wav"></audio>';
 				$('.content').html(content);
